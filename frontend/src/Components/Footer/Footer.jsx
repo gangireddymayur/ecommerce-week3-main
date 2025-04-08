@@ -29,18 +29,17 @@ const Footer = () => {
             <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/shop">Shop</Link></li>
-              <li><Link to="/new-arrivals">New Arrivals</Link></li>
-              <li><Link to="/blog">Blog</Link></li>
+              <li><Link to="/about">about</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
 
           <div className="footer-column">
             <h4>Categories</h4>
             <ul>
-              <li><Link to="/shop/fashion">Fashion</Link></li>
-              <li><Link to="/shop/beauty">Beauty</Link></li>
-              <li><Link to="/shop/accessories">Accessories</Link></li>
-              <li><Link to="/shop/wellness">Wellness</Link></li>
+              <li><Link to="/mens">mens</Link></li>
+              <li><Link to="/womens">womens</Link></li>
+              <li><Link to="/kids">kids</Link></li>
             </ul>
           </div>
 

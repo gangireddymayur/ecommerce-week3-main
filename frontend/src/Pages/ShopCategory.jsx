@@ -15,7 +15,7 @@ const ShopCategory = (props) => {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [sortBy, setSortBy] = useState("Featured");
   const [selectedSizes, setSelectedSizes] = useState([]);
-  const [priceRange, setPriceRange] = useState({ min: 0, max: 1000 });
+  const [priceRange, setPriceRange] = useState({ min: 0, max: 100000 });
   const [favorites, setFavorites] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const { addToCart } = useContext(ShopContext);
@@ -67,7 +67,7 @@ const ShopCategory = (props) => {
   };
   const clearFilters = () => {
     setSelectedSizes([]);
-    setPriceRange({ min: 0, max: 1000 });
+    setPriceRange({ min: 0, max: 100000 });
     setSortBy("Featured");
   };
   return (
